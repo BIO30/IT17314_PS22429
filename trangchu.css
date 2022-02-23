@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1520px;
+    margin: 0 auto;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: #4FBDBA;
+    color: white;
+    line-height: 40px;
+}
+
+.menu-logo{
+    height: 70px;
+    position: relative;
+    background: #ededed;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    right: 400px;
+    
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    color: #000;
+    line-height: 70px;
+    margin: 0 30px;
+    list-style: none;
+}
+.menu-logo nav a:hover{
+    color: #4FBDBA;
+    font-weight:bold ;
+    transition: all .5s linear;
+}
+.menu-logo .login i{
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.banner{
+    width: 100%;
+    margin-top: 110px;
+
+}
+.banner img{
+    max-width: 100%;
+}
+
+.product .heading{
+    font-size: 28px;
+    color:#4FBDBA ;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+.product .heading::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #4FBDBA;
+    top: 45px;
+    left: 47%;
+}
+
+.product .list-product .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.product .list-product .product-item:hover{
+    box-shadow: rgb(2, 2, 2) 0px 3px 8px;
+    transition: all .3s linear;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+footer{
+    width: 100%;
+    background: #4FBDBA;
+    color: #fff;
+    text-align: center;
+}
+footer .footer-item{
+    width: 30%;
+    display:inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+    margin: 30px 0;
+}
+footer .link h3{
+    margin-top: 30px;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    margin: 3px 0;
+}
+.tacgia{
+    background: #4FBDBA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+tacgia p{
+    padding: 10px;
+}
+.hhmenu{
+    list-style: none;
+
+}
+.hhmenu>li{
+    display: inline-block;
+    margin: 0px 0px ;
+    position: relative;
+}
+.hhmenu>li>a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: #000;
+    display:  block;
+    padding: 10px;
+}
+
+.hhmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    
+    list-style: none;
+    position: absolute;
+    top:70px;
+    left: 0px;
+    width: 200px;
+    background-color: #fff;
+    padding: 15px 25px;
+    display:none;
+    z-index: 100;
+}
+.smenu>li{
+    display: block;
+    border-bottom: 2px solid #4FBDBA;
+
+}
+.smenu>li>a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px 5px;
+}
+
